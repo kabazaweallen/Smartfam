@@ -1,0 +1,12 @@
+.filter-search-treatment{
+    margin-top: 20px;
+    float: right;
+    
+}
+.action{
+    display: flex;
+    gap: 20px;
+}
+.trash{
+    color: red;
+}

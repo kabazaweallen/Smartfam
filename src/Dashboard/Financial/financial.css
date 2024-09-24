@@ -1,0 +1,151 @@
+.finance-t-container {
+    display: flex;
+    flex-direction: row;
+    gap: 25rem;
+    margin-bottom: 2rem;
+    align-items: center;
+}
+
+.financial-title {
+    color: mediumseagreen;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.finance-btn {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.finance-download {
+    background-color: black;
+    padding: 7px;
+    color: white;
+    border-radius: 20px;
+    display: flex;
+    font-size: 12px;
+    transition: 1s;
+}
+
+.finance-download:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.finance-content {
+    display: flex;
+    gap: 2rem;
+}
+
+.finance-add-record {
+    padding: 10px 14px ;
+    color: white;
+    border-radius: 20px;
+    display: flex;
+    font-size: 12px;
+    transition: 0.5s;
+    width: 110px;
+    text-align: center;
+    background-color: mediumseagreen;
+}
+.finance-add-record a{
+    text-decoration: none;
+    color: white;
+}
+
+.income-box {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    border: 2px solid rgb(229, 228, 228);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.expenses-box {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    border: 2px solid rgb(229, 228, 228);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.expence-desc {
+    color: mediumseagreen;
+    font-size: 18px;
+}
+
+.income-desc {
+    color: mediumseagreen;
+    font-size: 18px;
+}
+
+.currency {
+    font-weight: 600;
+    opacity: 80%;
+}
+
+.income-expense {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.financial-body {
+    position: relative;
+}
+
+.filter-btn {
+    position: absolute;
+    right: 0%;
+    color: black;
+}
+
+.filter-icons {
+    font-size: 20px;
+}
+
+.filter-btn:hover {
+    color: white;
+    background-color: mediumseagreen;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.all-record {
+    margin-left: 35%;
+    margin-top: 10%;
+    font-size: 24px;
+}
+
+/* fetch financials */
+
+.user-table {
+    width: 97%;
+    border-collapse: collapse;
+    margin: 20px;
+    font-size: 13px;
+    font-weight: 100;
+
+}
+
+.user-table th,
+.user-table td {
+    padding: 8px;
+    text-align: left;
+}
+
+
+.user-table th {
+    border-bottom: 1px solid rgb(215, 212, 212);
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.user-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}

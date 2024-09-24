@@ -1,0 +1,189 @@
+.dead-wrapper{
+    display: flex;
+    gap: 20px;
+    padding: 20px 2px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.dead-wrapper input{
+    width: 300px;
+    padding: 12px;
+    border-radius: 7px;
+    border: 1px solid lightgrey;
+}
+.dead-wrapper select{
+    width: 300px;
+    padding: 12px;
+    border-radius: 7px;
+    border: 1px solid lightgrey;
+}
+.dead-wrapper label{
+    color: mediumseagreen;
+    position: absolute;
+    top: 10px;
+    z-index: 3;
+    left: 3%;
+    font-size: 0.75rem;
+    background-color: white;
+}
+
+
+
+
+
+
+.tex-note-wrapper{
+    display: flex;
+    gap: 30px;
+    width: 100%;
+}
+.tex-note-wrapper input{
+    width: 950px;
+    padding: 12px;
+    border-radius: 7px;
+    border: 1px solid lightgrey;
+}
+.tex-note-wrapper select{
+    width: 300px;
+    padding: 12px;
+    border-radius: 7px;
+    border: 1px solid lightgrey;
+}
+.tex-note-wrapper input:focus{
+border: 1px solid lightgrey;
+}
+.flex-direction{
+    position: relative;
+}
+.tex-note-wrapper label{
+    color: mediumseagreen;
+    position: absolute;
+    top: 10px;
+    z-index: 3;
+    left: 3%;
+    font-size: 0.75rem;
+    background-color: white;
+}
+.dead-wrapper span{
+    color: red;
+}
+.tex-note-wrapper span{
+    color: red;
+}
+.dead-actity-h1{
+    font-size: 16px;
+    color: mediumseagreen;
+}
+
+
+
+@media screen and (max-width: 900px) {
+    .tex-note-wrapper input{
+        width: 500px;
+        padding: 12px;
+        border-radius: 7px;
+        border: 1px solid lightgrey;
+    }
+    .tex-note-wrapper select{
+        width: 400px;
+        padding: 12px;
+        border-radius: 7px;
+        border: 1px solid lightgrey;
+    }
+    .tex-note-wrapper input:focus{
+    border: 1px solid lightgrey;
+    }
+    .flex-direction{
+        position: relative;
+    }
+    .dead-wrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .flex-direction{
+        width: 230px;
+    }
+    .dead-wrapper input{
+        width: 230px;
+    }
+    .dead-wrapper select{
+        width: 230px;
+    }
+   
+    .tex-note-wrapper label{
+        color: mediumseagreen;
+        position: absolute;
+        top: 10px;
+        z-index: 3;
+        left: 3%;
+        font-size: 0.75rem;
+        background-color: white;
+    }
+    
+    .dead-wrapper span{
+        color: red;
+    }
+    .tex-note-wrapper span{
+        color: red;
+    }
+    .dead-actity-h1{
+        font-size: 16px;
+        color: mediumseagreen;
+    }
+
+}
+@media screen and (max-width: 600px) {
+    .tex-note-wrapper input{
+        width: 300px;
+        padding: 12px;
+        border-radius: 7px;
+        border: 1px solid lightgrey;
+    }
+    .tex-note-wrapper select{
+        width: 300px;
+        padding: 12px;
+        border-radius: 7px;
+        border: 1px solid lightgrey;
+    }
+    .tex-note-wrapper input:focus{
+    border: 1px solid lightgrey;
+    }
+    .flex-direction{
+        position: relative;
+    }
+    .dead-wrapper{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .flex-direction{
+        width: 300px;
+    }
+    .dead-wrapper input{
+        width: 300px;
+    }
+    .dead-wrapper select{
+        width: 300px;
+    }
+   
+    .tex-note-wrapper label{
+        color: mediumseagreen;
+        position: absolute;
+        top: 10px;
+        z-index: 3;
+        left: 3%;
+        font-size: 0.75rem;
+        background-color: white;
+    }
+    
+    .dead-wrapper span{
+        color: red;
+    }
+    .tex-note-wrapper span{
+        color: red;
+    }
+    .dead-actity-h1{
+        font-size: 16px;
+        color: mediumseagreen;
+    }
+
+}

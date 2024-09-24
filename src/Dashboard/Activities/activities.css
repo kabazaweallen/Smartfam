@@ -1,0 +1,137 @@
+.activity-box {
+    margin-bottom: 20px;
+}
+
+.activity-box p {
+    font-size: 16px;
+    border-radius: 1px solid black;
+    color: mediumseagreen;
+}
+
+
+.pasture-box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 31.5%;
+    padding: 25px;
+    border-radius: 10px;
+    background-color: white;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.pasture-box nav {
+    font-weight: 550;
+    color: rgb(79, 69, 69);
+}
+
+.pasture-box p {
+    font-size: 13px;
+    color: rgb(117, 117, 112);
+}
+
+.all-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 27px;
+}
+
+.pasture-box:hover {
+    border: 1px solid mediumseagreen;
+}
+.activity-t-decs{
+    opacity: 60%;
+}
+
+.all-box .pasture-box {
+    text-decoration: none;
+    color: rgb(38, 37, 37);
+}
+.loading-wrapper{
+    background-color: rgba(255, 255, 255, 0.2);
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: -20px;
+    right: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+.loading-indicator{
+    margin-left: 40%;
+    margin-top: 15%;
+  width: 400px;
+    color: mediumseagreen;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 40px;
+    z-index: 1000;
+  }
+  .loader {
+    width: 48px;
+    height: 48px;
+    border: 7px solid mediumseagreen;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+    z-index: 1000px;
+    }
+  
+    @keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.activityy-not-wrapper{
+    width: 300px;
+    position: absolute;
+    top: 60PX;
+    right: 0;
+    height: 70px;
+    background-color: mediumseagreen;
+    padding: 20px;
+    color: white;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    font-size: 12px;
+}
+.p-activity{
+    color: mediumseagreen;
+    font-size: 16px;
+    font-weight: bold;
+}
+@media screen and (max-width: 900px) {
+    .all-box {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .pasture-box {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+        padding: 25px;
+        border-radius: 10px;
+        background-color: white;
+        text-decoration: none;
+        transition: 1s;
+    }
+    .p-activity{
+        color: mediumseagreen;
+        font-size: 17px;
+        font-weight: bold;
+    }
+    
+}

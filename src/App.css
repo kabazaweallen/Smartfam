@@ -1,0 +1,420 @@
+
+.auth-wrapper{
+  background-color: lightgrey;
+  height: 100vh;
+  padding: 20px 120px;
+}
+
+.Login-signup-wrapper{
+  display: flex;
+  height: 93vh;
+}
+
+.login-form{
+  display: flex;
+  width: 100%;
+  border-radius: 7px;
+}
+.form1-login{
+  flex-basis: 60%;
+  background-color: white;
+  padding: 20px;
+
+}
+.login-responsive-link{
+  display: none;
+}
+.signup-responsive-link{
+  display: none;
+}
+.p-login{
+  font-size: 20px;
+  text-align: center;
+  margin-top: 70px;
+}
+.form-login3{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 30%;
+  margin-top: 30px;
+}
+.form-login3 input{
+  padding: 10px;
+  border-radius: 18px;
+  background-color:#F6F9FA;
+  width: 300px;
+  border: 0;
+  outline: 0;
+  color: black;
+
+}
+.form-login3 button{
+  padding: 10px;
+  border-radius: 15px;
+  background-color: mediumseagreen;
+  width: 300px;
+color: white;
+  border: 0;
+  outline: 0;
+}
+.form-login3 label{
+  font-size: 13px;
+}
+.form2-login{
+background-image: url('/images/greenImage.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+padding: 10px 40px
+}
+.p2-login{
+  margin-top: 180px;
+  color: white;
+}
+.p3-login{
+  color: white;
+  font-weight: 20px;
+}
+.btn-logins{
+  background-color: black;
+  padding: 10px;
+  border-radius: 18px;
+  background-color: white;
+  width: 200px;
+color: white;
+  border: 0;
+  outline: 0;
+  margin-left: 40px;
+  margin-top: 20px;
+  text-align: center;
+
+}
+.btn-login{
+  text-decoration: none;
+  color: black;
+}
+.form-signup3{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding:10px 80px;
+}
+.form-signup3 input{
+  padding: 10px;
+  border-radius: 18px;
+  color: black;
+  background-color:#F6F9FA;
+  width: 300px;
+  border: 0;
+  outline: 0;
+
+}
+.form-signup3 button{
+  padding: 10px;
+  border-radius: 18px;
+  background-color: mediumseagreen;
+  width: 300px;
+  color: white;
+  border: 0;
+  outline: 0;
+}
+.error{
+  color: red;
+  font-size: 14px;
+}
+.p-privacy{
+  font-size: 14px;
+}
+@media screen and (max-width: 900px){
+.auth-wrapper{
+  background-color: lightgrey;
+  height: 100vh;
+  padding: 10px;
+}
+
+.Login-signup-wrapper{
+  display: flex;
+  height: 93vh;
+}
+
+.login-form{
+  display: block;
+  width: 100%;
+  border-radius: 7px;
+}
+.form1-login{
+  height: 100vh;
+  background-color: white;
+  padding: 20px;
+  position: relative;
+}
+.login-responsive-link{
+  display: block;
+  position: absolute;
+  right: 30px;
+  text-decoration: none;
+  color: mediumseagreen;
+  top: 35%;
+  font-size: 14px;
+}
+.signup-responsive-link{
+  display: block;
+  position: absolute;
+  right: 30px;
+  text-decoration: none;
+  color: mediumseagreen;
+  top: 40%;
+  font-size: 14px;
+}
+.p-login{
+  font-size: 20px;
+  text-align: center;
+  margin-top: 50px;
+}
+.form-login3{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 25%;
+  margin-top: 30px;
+  margin-top: 70px;
+}
+.form-login3 input{
+  padding: 10px;
+  border-radius: 18px;
+  background-color:#F6F9FA;
+  width: 400px;
+  border: 0;
+  outline: 0;
+  color: black;
+
+}
+.form-login3 button{
+  padding: 10px;
+  border-radius: 15px;
+  background-color: mediumseagreen;
+  width: 400px;
+color: white;
+  border: 0;
+  outline: 0;
+
+}
+.form-login3 label{
+  font-size: 13px;
+}
+.form2-login{
+background-image: url('/images/greenImage.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+padding: 10px 40px;
+display: none;
+}
+.p2-login{
+  margin-top: 180px;
+  color: white;
+}
+.p3-login{
+  color: white;
+  font-weight: 20px;
+}
+.btn-logins{
+  background-color: black;
+  padding: 10px;
+  border-radius: 18px;
+  background-color: white;
+  width: 200px;
+color: white;
+  border: 0;
+  outline: 0;
+  margin-left: 40px;
+  margin-top: 20px;
+  text-align: center;
+
+}
+.btn-login{
+  text-decoration: none;
+  color: black;
+}
+.form-signup3{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 25%;
+  margin-top: 50px;
+}
+.form-signup3 input{
+  padding: 10px;
+  border-radius: 18px;
+color: black;
+  background-color:#F6F9FA;
+  width: 400px;
+  border: 0;
+  outline: 0;
+
+}
+.form-signup3 button{
+  padding: 10px;
+  border-radius: 18px;
+  background-color: mediumseagreen;
+  width: 400px;
+  color: white;
+  border: 0;
+  outline: 0;
+  margin-top: 10px;
+  
+
+}
+.error{
+  color: red;
+  font-size: 14px;
+}
+}
+@media screen and (max-width: 600px){
+  
+  .auth-wrapper{
+    background-color: lightgrey;
+    height: 100vh;
+    padding: 10px;
+  }
+  
+  .Login-signup-wrapper{
+    display: flex;
+    height: 93vh;
+  }
+  
+  .login-form{
+    display: block;
+    width: 100%;
+    border-radius: 7px;
+  }
+  .form1-login{
+    height: 100vh;
+    padding: 20% 20px;
+    position: relative;
+  }
+  .login-responsive-link{
+    display: block;
+    position: absolute;
+    right: 30px;
+    text-decoration: none;
+    color: mediumseagreen;
+    top: 55%;
+    font-size: 14px;
+  }
+  .signup-responsive-link{
+    display: block;
+    position: absolute;
+    right: 30px;
+    text-decoration: none;
+    color: mediumseagreen;
+    top: 65%;
+    font-size: 14px;
+  }
+  .p-login{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .form-login3{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 20px;
+    margin-top: 30px;
+  }
+  .form-login3 input{
+    padding: 10px;
+    border-radius: 18px;
+    background-color:#F6F9FA;
+    width: 300px;
+    border: 0;
+    outline: 0;
+    color: black;
+  
+  }
+  .form-login3 button{
+    padding: 10px;
+    border-radius: 15px;
+    background-color: mediumseagreen;
+    width: 300px;
+  color: white;
+    border: 0;
+    outline: 0;
+  
+  }
+  .form-login3 label{
+    font-size: 13px;
+  }
+  .form2-login{
+  background-image: url('/images/greenImage.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px 40px;
+  display: none;
+  }
+  .p2-login{
+    margin-top: 180px;
+    color: white;
+  }
+  .p3-login{
+    color: white;
+    font-weight: 20px;
+  }
+  .btn-logins{
+    background-color: black;
+    padding: 10px;
+    border-radius: 18px;
+    background-color: white;
+    width: 200px;
+  color: white;
+    border: 0;
+    outline: 0;
+    margin-left: 40px;
+    margin-top: 20px;
+    text-align: center;
+  
+  }
+  .btn-login{
+    text-decoration: none;
+    color: black;
+  }
+  .form-signup3{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding:10px 20px;
+  }
+  .form-signup3 input{
+    padding: 10px;
+    border-radius: 18px;
+  color: black;
+    background-color:#F6F9FA;
+    width: 300px;
+    border: 0;
+    outline: 0;
+  
+  }
+  .form-signup3 button{
+    padding: 10px;
+    border-radius: 18px;
+    background-color: mediumseagreen;
+    width: 300px;
+    color: white;
+    border: 0;
+    outline: 0;
+    margin-top: 10px;
+    
+  
+  }
+  .error{
+    color: red;
+    font-size: 14px;
+  }
+  }
+.not-found-container{
+  text-align: center;
+  padding: 20% 30%;
+  background-color: white;
+  color: mediumseagreen;
+  height: 150vh;
+}

@@ -1,0 +1,62 @@
+.all-report-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.report-box {
+    text-decoration: none;
+    color: rgb(38, 37, 37);
+}
+
+.report-title {
+    color: mediumseagreen;
+    font-size: 24px;
+    padding: 0px 0px 5px 0px;
+}
+
+.report-t-desc {
+    font-size: 13px;
+    opacity: 60%;
+    margin-bottom: 2rem;
+}
+
+.report-box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 31.5%;
+    padding: 25px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.report-box nav {
+    font-weight: 550;
+    color: rgb(79, 69, 69);
+}
+
+.all-box Link {
+    text-decoration: none;
+}
+
+.report-box:hover {
+    border: 1px solid mediumseagreen;
+}
+@media screen and (max-width: 900px) {
+    .all-report-box {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }  
+    .report-box {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+        border: 1px solid lightgrey;
+        padding: 25px;
+        border-radius: 10px;
+        text-decoration: none;
+    } 
+}

@@ -1,0 +1,32 @@
+.filter-search-treatment {
+    display: flex;
+    gap: 10px;
+}
+
+.filter-search-treatment input {
+    padding: 7px 7px 7px 30px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+}
+
+.btn-filter-treatment {
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    background-color: white;
+    width: 50px;
+    font-size: 17px;
+}
+
+.search-icons {
+    position: absolute;
+    transform: translateY(10px);
+    margin-left: 10px;
+    font-size: 18px;
+    opacity: 70%;
+}
+
+.btn-filter-treatment:hover {
+    color: white;
+    background-color: mediumseagreen;
+}

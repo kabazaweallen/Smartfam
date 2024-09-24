@@ -1,0 +1,50 @@
+.sale-title {
+    font-size: large;
+    color: mediumseagreen;
+    margin-bottom: 2rem;
+}
+
+.sale-body form {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.lab-ordered {
+    display: flex;
+    gap: 3px;
+    align-items: center;
+}
+
+
+.sale-body input, select {
+    padding: 12px;
+    width: 90%;
+    background: none;
+    color: #000000;
+    border: 1px solid rgb(217, 215, 215);
+    outline: none;
+    font-size: 15px;
+    border-radius: 8px;
+}
+
+.sale-body label {
+    font-size: 12px;
+    color: mediumseagreen;
+}
+
+.lab-ordered-note {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.lab-ordered-note input {
+    width: 290%;
+}
+
+.sale-btn {
+    display: flex;
+    margin-top: 12rem;
+    justify-content: end;
+    gap: 3px;
+}

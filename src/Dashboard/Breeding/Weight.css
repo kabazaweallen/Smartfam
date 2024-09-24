@@ -1,0 +1,70 @@
+.edit-weight {
+    display: flex;
+    gap: 10px;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.weight-preferences {
+    display: flex;
+    margin: 2rem 0rem;
+    gap: 20px;
+}
+.weight{
+    opacity: 40%;
+}
+
+.weight-h {
+    color: mediumseagreen;
+    height: 30px;
+    border-bottom: 2px solid mediumseagreen;
+    width: 3.2rem;
+    margin-bottom: 2rem;
+}
+
+
+
+.weight-body form {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.lab-ordered {
+    display: flex;
+    gap: 3px;
+    align-items: center;
+}
+
+
+.weight-body input {
+    padding: 12px;
+    width:90%;
+    background: none;
+    color: #000000;
+    border: 1px solid rgb(217, 215, 215);
+    outline: none;
+    font-size: 15px;
+    border-radius: 8px;
+}
+
+.weight-body label {
+    font-size: 12px;
+    color: mediumseagreen;
+}
+
+.lab-ordered-notes {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.lab-ordered-notes input {
+    width: 290%;
+}
+
+.sale-btn {
+    display: flex;
+    margin-top: 12rem;
+    justify-content: end;
+    gap: 3px;
+}

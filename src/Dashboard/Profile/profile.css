@@ -1,0 +1,472 @@
+.edit-profile {
+    display: flex;
+    gap: 10px;
+    font-size: 13px;
+}
+
+.profile {
+    opacity: 40%;
+}
+
+.profile-preferences {
+    display: flex;
+    margin: 2rem 0rem;
+    gap: 20px;
+}
+
+.profile-title {
+    color: mediumseagreen;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 50px;
+
+}
+
+.profile-h {
+    color: mediumseagreen;
+    height: 30px;
+    border-bottom: 2px solid mediumseagreen;
+}
+
+.ordered {
+    color: red;
+    align-items: center;
+}
+
+.names-ordered {
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    gap: 2px;
+}
+
+.form-profile-container label {
+    margin: 2px;
+    position: relative;
+}
+
+.form-profile-container input {
+    padding: 10px;
+    background: none;
+    color: #000000;
+    border: 1px solid lightgrey;
+    outline: none;
+    font-size: 12px;
+    border-radius: 8px;
+}
+
+.form-profile-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+#cont {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#lab {
+    /* position: absolute; */
+    /* transform: translateY(-40px); */
+    /* transform: translateX(15px); */
+    /* z-index: 1; */
+    font-size: 12px;
+    color: mediumseagreen;
+}
+
+.delete-form-btn {
+    color: red;
+    width: fit-content;
+    border: 1px solid red;
+    padding: 7px 20px;
+    border-radius: 22px;
+    font-size: 14px;
+}
+
+.save-form-btn {
+    width: 15%;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    background-color: #000000;
+    border-radius: 22px;
+    text-align: center;
+    font-size: 14px;
+}
+.all-form-btn{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+.change-pwd{
+    display: flex;
+    font-size: 13px;
+    gap: 30px;
+    margin-top: 20px;
+}
+.change-pwd a{
+    color: mediumseagreen;
+    cursor: pointer;
+}
+.change-pwd-form{
+    border: 1px solid lightgrey;
+    width: 500px;
+    margin-top: 4%;
+    margin-left: 25%;
+    background-color: white;
+    border-radius: 7px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 290px;
+}
+.change-pwd-form input{
+    padding: 10px;
+    border-radius: 4px;
+    color: mediumseagreen;
+    border: 1px solid lightgrey;
+    color: mediumseagreen;
+}
+.change-pwd-form label{
+    font-size: 13px;
+    color: mediumseagreen;
+}
+.btn-pwd{
+    padding: 10px;
+    border-radius: 4px;
+    color: white;
+    background-color: mediumseagreen;
+    outline: 0;
+    border: 0;
+}
+.change-pwd-p{
+    text-align: center;
+    font-size: 17px;
+    color: mediumseagreen;
+    margin: 5%;
+}
+.error{
+    color: red;
+    font-size: 13px;
+}
+/* profile responsivensess */
+@media screen and (max-width: 900px) {
+    .edit-profile {
+        display: flex;
+        gap: 10px;
+        font-size: 13px;
+    }
+    
+    .profile {
+        opacity: 40%;
+    }
+    
+    .profile-preferences {
+        display: flex;
+        margin: 2rem 0rem;
+        gap: 20px;
+    }
+    
+    .profile-title {
+        color: mediumseagreen;
+        margin-left: 20px;
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 50px;
+    
+    }
+    
+    .profile-h {
+        color: mediumseagreen;
+        height: 30px;
+        border-bottom: 2px solid mediumseagreen;
+        font-size: 13px;
+    }
+    .profile-pref{
+        font-size: 13px;
+    }
+    
+    .ordered {
+        color: red;
+        align-items: center;
+    }
+    
+    .names-ordered {
+        display: flex;
+        /* align-items: center; */
+        /* justify-content: center; */
+        gap: 2px;
+    }
+    
+    .form-profile-container label {
+        margin: 2px;
+        position: relative;
+    }
+    
+    .form-profile-container input {
+        padding: 10px;
+        background: none;
+        color: #000000;
+        border: 1px solid lightgrey;
+        outline: none;
+        font-size: 12px;
+        border-radius: 8px;
+    }
+    
+    .form-profile-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    
+    #cont {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    #lab {
+        font-size: 12px;
+        color: mediumseagreen;
+    }
+    
+    .delete-form-btn {
+        color: red;
+        width: fit-content;
+        border: 1px solid red;
+        padding: 7px 20px;
+        border-radius: 22px;
+        font-size: 14px;
+    }
+    
+    .save-form-btn {
+        width: 15%;
+        color: rgb(255, 255, 255);
+        padding: 10px;
+        background-color: #000000;
+        border-radius: 22px;
+        text-align: center;
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+    .all-form-btn{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 2rem;
+    }
+    .change-pwd{
+        display: flex;
+        font-size: 13px;
+        gap: 30px;
+        margin-top: 20px;
+    }
+    .change-pwd a{
+        color: mediumseagreen;
+        cursor: pointer;
+    }
+    .change-pwd-form{
+        border: 1px solid lightgrey;
+        width: 400px;
+        margin-top: 4%;
+        margin-left: 10%;
+        background-color: white;
+        border-radius: 7px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        height: 260px;
+    }
+    .change-pwd-form input{
+        padding: 7px;
+        border-radius: 4px;
+        color: mediumseagreen;
+        border: 1px solid lightgrey;
+        color: mediumseagreen;
+    }
+    .change-pwd-form label{
+        font-size: 13px;
+        color: mediumseagreen;
+    }
+    .btn-pwd{
+        padding: 7px;
+        border-radius: 4px;
+        color: white;
+        background-color: mediumseagreen;
+        outline: 0;
+        border: 0;
+    }
+    .change-pwd-p{
+        text-align: center;
+        font-size: 17px;
+        color: mediumseagreen;
+        margin: 5%;
+    }
+    .error{
+        color: red;
+        font-size: 13px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .edit-profile {
+        display: flex;
+        gap: 10px;
+        font-size: 13px;
+    }
+    
+    .profile {
+        opacity: 40%;
+    }
+    
+    .profile-preferences {
+        display: flex;
+        margin: 2rem 0rem;
+        gap: 20px;
+    }
+    
+    .profile-title {
+        color: mediumseagreen;
+        margin-left: 20px;
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 50px;
+    
+    }
+    
+    .profile-h {
+        color: mediumseagreen;
+        height: 30px;
+        border-bottom: 2px solid mediumseagreen;
+        font-size: 13px;
+    }
+    .profile-pref{
+        font-size: 13px;
+    }
+    
+    .ordered {
+        color: red;
+        align-items: center;
+    }
+    
+    .names-ordered {
+        display: flex;
+        /* align-items: center; */
+        /* justify-content: center; */
+        gap: 2px;
+    }
+    
+    .form-profile-container label {
+        margin: 2px;
+        position: relative;
+    }
+    
+    .form-profile-container input {
+        padding: 10px;
+        background: none;
+        color: #000000;
+        border: 1px solid lightgrey;
+        outline: none;
+        font-size: 12px;
+        border-radius: 8px;
+    }
+    
+    .form-profile-container {
+        display: grid;
+        grid-template-columns: 1fr ;
+        gap: 20px;
+    }
+    
+    #cont {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    #lab {
+        font-size: 12px;
+        color: mediumseagreen;
+    }
+    
+    .delete-form-btn {
+        color: red;
+        width: fit-content;
+        border: 1px solid red;
+        padding: 7px 20px;
+        border-radius: 22px;
+        font-size: 14px;
+    }
+    
+    .save-form-btn {
+        width: 15%;
+        color: rgb(255, 255, 255);
+        padding: 10px;
+        background-color: #000000;
+        border-radius: 22px;
+        text-align: center;
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+    .all-form-btn{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 2rem;
+    }
+    .change-pwd{
+        display: flex;
+        font-size: 13px;
+        gap: 30px;
+        margin-top: 20px;
+    }
+    .change-pwd a{
+        color: mediumseagreen;
+        cursor: pointer;
+    }
+    .change-pwd-form{
+        border: 1px solid lightgrey;
+        width: 300px;
+        margin-top: 20%;
+        margin-left: 10%;
+        background-color: white;
+        border-radius: 7px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        height: 260px;
+    }
+    .change-pwd-form input{
+        padding: 7px;
+        border-radius: 4px;
+        color: mediumseagreen;
+        border: 1px solid lightgrey;
+        color: mediumseagreen;
+    }
+    .change-pwd-form label{
+        font-size: 13px;
+        color: mediumseagreen;
+    }
+    .btn-pwd{
+        padding: 7px;
+        border-radius: 4px;
+        color: white;
+        background-color: mediumseagreen;
+        outline: 0;
+        border: 0;
+    }
+    .change-pwd-p{
+        text-align: center;
+        font-size: 17px;
+        color: mediumseagreen;
+        margin: 5%;
+    }
+    .error{
+        color: red;
+        font-size: 13px;
+    }
+
+}
